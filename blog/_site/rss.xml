@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Da RSS feed</title>
+        <link>http://hibiscusbiscuit.github.io/blog</link>
+        <description><![CDATA[Most Powerful Thing in The World, RSS]]></description>
+        <atom:link href="http://hibiscusbiscuit.github.io/blog/rss.xml" rel="self"
+                   type="application/rss+xml" />
+        <lastBuildDate>Wed, 21 Jan 2015 00:00:00 UT</lastBuildDate>
+        <item>
+    <title>Wagga Wagga</title>
+    <link>http://hibiscusbiscuit.github.io/blog/posts/2015-01-21-wagga.html</link>
+    <description><![CDATA[<article>
+<header>
+<h1>Wagga Wagga</h1>
+<p>by <em>Bavid Dowie</em> on <strong>January 21, 2015</strong></p>
+<p>Tagged as: <a href="http://hibiscusbiscuit.github.io/blog/tags/cigarette_butts.html">cigarette_butts</a>.</p>
+</header>
+
+<section>
+<p>Now that this exists we can begin.</p>
+</section>
+</article>
+]]></description>
+    <pubDate>Wed, 21 Jan 2015 00:00:00 UT</pubDate>
+    <guid>http://hibiscusbiscuit.github.io/blog/posts/2015-01-21-wagga.html</guid>
+</item>
+
+    </channel> 
+</rss>

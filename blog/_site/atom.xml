@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Da RSS feed</title>
+    <link href="http://hibiscusbiscuit.github.io/blog/atom.xml" rel="self" />
+    <link href="http://hibiscusbiscuit.github.io/blog" />
+    <id>http://hibiscusbiscuit.github.io/blog/atom.xml</id>
+    <author>
+        <name>Bavid Dowie</name>
+        <email>nicholai@outlook.com</email>
+    </author>
+    <updated>2015-01-21T00:00:00Z</updated>
+    <entry>
+    <title>Wagga Wagga</title>
+    <link href="http://hibiscusbiscuit.github.io/blog/posts/2015-01-21-wagga.html" />
+    <id>http://hibiscusbiscuit.github.io/blog/posts/2015-01-21-wagga.html</id>
+    <published>2015-01-21T00:00:00Z</published>
+    <updated>2015-01-21T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<article>
+<header>
+<h1>Wagga Wagga</h1>
+<p>by <em>Bavid Dowie</em> on <strong>January 21, 2015</strong></p>
+<p>Tagged as: <a href="http://hibiscusbiscuit.github.io/blog/tags/cigarette_butts.html">cigarette_butts</a>.</p>
+</header>
+
+<section>
+<p>Now that this exists we can begin.</p>
+</section>
+</article>
+]]></summary>
+</entry>
+
+</feed>
