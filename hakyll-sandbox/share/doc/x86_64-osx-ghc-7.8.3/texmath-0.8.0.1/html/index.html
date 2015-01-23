@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>texmath-0.8.0.1: Conversion between formats used to represent mathematics.</title><link href="ocean.css" rel="stylesheet" type="text/css" title="Ocean" /><script src="haddock-util.js" type="text/javascript"></script><script type="text/javascript">//<![CDATA[
+window.onload = function () {pageLoad();};
+//]]>
+</script></head><body><div id="package-header"><ul class="links" id="page-menu"><li><a href="index.html">Contents</a></li><li><a href="doc-index.html">Index</a></li></ul><p class="caption">texmath-0.8.0.1: Conversion between formats used to represent mathematics.</p></div><div id="content"><div id="description"><h1>texmath-0.8.0.1: Conversion between formats used to represent mathematics.</h1><div class="doc"><p>The texmath library provides functions to read and
+write TeX math, presentation MathML, and OMML (Office
+Math Markup Language, used in Microsoft Office).
+Support is also included for converting math formats
+to pandoc's native format (allowing conversion, via
+pandoc, to a variety of different markup formats).
+The TeX reader supports basic LaTeX and AMS extensions,
+and it can parse and apply LaTeX macros.
+(See <a href="http://johnmacfarlane.net/texmath">here</a> for a live
+demo of bidirectional conversion between LaTeX
+and MathML.)</p><p>The package also includes several utility modules which
+may be useful for anyone looking to manipulate either
+TeX math or MathML.  For example, a copy of the MathML
+operator dictionary is included.</p><p>Use the <code>executable</code> flag to install a standalone
+executable, <code>texmath</code>, that by default reads a LaTeX
+formula from <code>stdin</code> and writes MathML to <code>stdout</code>.
+With flags all the functionality exposed by
+<code>TeXMath</code> can be accessed through this executable.
+(Use the <code>--help</code> flag for a description of all
+functionality)</p><p>The <code>texmath</code> executable can also be used as a CGI
+script, when renamed as <code>texmath-cgi</code>.
+It will expect query parameters for <code>from</code>, <code>to</code>,
+<code>input</code>, and optionally <code>inline</code>, and return a JSON
+object with either <code>error</code> and a message or
+<code>success</code> and the converted result.</p></div></div><div id="module-list"><p class="caption">Modules</p><ul><li><span id="control.n.1" class="module collapser" onclick="toggleSection('n.1')">Text</span><ul id="section.n.1" class="show"><li><span class="module"><span id="control.n.1.1" class="collapser" onclick="toggleSection('n.1.1')">&nbsp;</span><a href="Text-TeXMath.html">Text.TeXMath</a></span><ul id="section.n.1.1" class="show"><li><span id="control.n.1.1.1" class="module collapser" onclick="toggleSection('n.1.1.1')">Readers</span><ul id="section.n.1.1.1" class="show"><li><span class="module"><span id="control.n.1.1.1.1" class="collapser" onclick="toggleSection('n.1.1.1.1')">&nbsp;</span><a href="Text-TeXMath-Readers-MathML.html">Text.TeXMath.Readers.MathML</a></span><ul id="section.n.1.1.1.1" class="show"><li><span class="module"><a href="Text-TeXMath-Readers-MathML-EntityMap.html">Text.TeXMath.Readers.MathML.EntityMap</a></span></li><li><span class="module"><a href="Text-TeXMath-Readers-MathML-MMLDict.html">Text.TeXMath.Readers.MathML.MMLDict</a></span></li></ul></li><li><span class="module"><a href="Text-TeXMath-Readers-OMML.html">Text.TeXMath.Readers.OMML</a></span></li><li><span class="module"><span id="control.n.1.1.1.3" class="collapser" onclick="toggleSection('n.1.1.1.3')">&nbsp;</span><a href="Text-TeXMath-Readers-TeX.html">Text.TeXMath.Readers.TeX</a></span><ul id="section.n.1.1.1.3" class="show"><li><span class="module"><a href="Text-TeXMath-Readers-TeX-Macros.html">Text.TeXMath.Readers.TeX.Macros</a></span></li></ul></li></ul></li><li><span class="module"><a href="Text-TeXMath-Types.html">Text.TeXMath.Types</a></span></li><li><span id="control.n.1.1.3" class="module collapser" onclick="toggleSection('n.1.1.3')">Unicode</span><ul id="section.n.1.1.3" class="show"><li><span class="module"><a href="Text-TeXMath-Unicode-ToASCII.html">Text.TeXMath.Unicode.ToASCII</a></span></li><li><span class="module"><a href="Text-TeXMath-Unicode-ToTeX.html">Text.TeXMath.Unicode.ToTeX</a></span></li><li><span class="module"><a href="Text-TeXMath-Unicode-ToUnicode.html">Text.TeXMath.Unicode.ToUnicode</a></span></li></ul></li><li><span id="control.n.1.1.4" class="module collapser" onclick="toggleSection('n.1.1.4')">Writers</span><ul id="section.n.1.1.4" class="show"><li><span class="module"><a href="Text-TeXMath-Writers-MathML.html">Text.TeXMath.Writers.MathML</a></span></li><li><span class="module"><a href="Text-TeXMath-Writers-OMML.html">Text.TeXMath.Writers.OMML</a></span></li><li><span class="module"><a href="Text-TeXMath-Writers-Pandoc.html">Text.TeXMath.Writers.Pandoc</a></span></li><li><span class="module"><a href="Text-TeXMath-Writers-TeX.html">Text.TeXMath.Writers.TeX</a></span></li></ul></li></ul></li></ul></li></ul></div></div><div id="footer"><p>Produced by <a href="http://www.haskell.org/haddock/">Haddock</a> version 2.14.3</p></div></body></html>

@@ -1,0 +1,5 @@
+Installing library in
+/Users/compadre/workingterm/hibiscusbiscuitio/hakyll-sandbox/lib/x86_64-osx-ghc-7.8.3/regex-pcre-builtin-0.94.4.8.8.35
+/usr/bin/ranlib: file: /Users/compadre/workingterm/hibiscusbiscuitio/hakyll-sandbox/lib/x86_64-osx-ghc-7.8.3/regex-pcre-builtin-0.94.4.8.8.35/libHSregex-pcre-builtin-0.94.4.8.8.35.a(pcre_string_utils.o) has no symbols
+/usr/bin/ranlib: file: /Users/compadre/workingterm/hibiscusbiscuitio/hakyll-sandbox/lib/x86_64-osx-ghc-7.8.3/regex-pcre-builtin-0.94.4.8.8.35/libHSregex-pcre-builtin-0.94.4.8.8.35_p.a(pcre_string_utils.p_o) has no symbols
+Registering regex-pcre-builtin-0.94.4.8.8.35...

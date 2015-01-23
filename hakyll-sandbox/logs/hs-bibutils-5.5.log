@@ -1,0 +1,5 @@
+Installing library in
+/Users/compadre/workingterm/hibiscusbiscuitio/hakyll-sandbox/lib/x86_64-osx-ghc-7.8.3/hs-bibutils-5.5
+/usr/bin/ranlib: file: /Users/compadre/workingterm/hibiscusbiscuitio/hakyll-sandbox/lib/x86_64-osx-ghc-7.8.3/hs-bibutils-5.5/libHShs-bibutils-5.5.a(adsout_journals.o) has no symbols
+/usr/bin/ranlib: file: /Users/compadre/workingterm/hibiscusbiscuitio/hakyll-sandbox/lib/x86_64-osx-ghc-7.8.3/hs-bibutils-5.5/libHShs-bibutils-5.5_p.a(adsout_journals.p_o) has no symbols
+Registering hs-bibutils-5.5...
